@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gurami Kiknadze">
+    <meta name="description" content="კონტაქტი
+    ">
+    <title>მოგვწერე!</title>
+    <link rel="icon" href="khiwb1.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header__h1">გაგვიზიარე შენი შთაბეჭდილებები!</h1>
+
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li>
+                <a href="/">მთავარი გვერდი
+                </a>
+            </li>
+                <li>
+                    <a href="/#menu">მენიუ
+                    </a>
+                </li>
+                <li>
+                    <a href="hours.html">სამუშაო საათები
+                    </a>
+                </li>
+                <li>
+                    <a href="about.html">ჩვენ შესახებ
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <figure>
+            <div class="box"></div>
+            <img src="img/khinkali.png" alt="ხინკალი, ხინკალი და ხინკალი!" title="ხინკლის ბარის ხინკალი ყოველთვის გამორჩეულია!" width="1000" height="263">
+        </div>
+            <figcaption class="offscreen">
+                ხინკლის ბარის ხინკალი ყოველთვის გამორჩეულია!</figcaption>
+        </figure>
+    </section>
+
+
+<main class="main">
+    <article class="main__article">
+        <h2>ჩვენი ლოკაცია</h2>
+        <address>
+            თბილისი, წერეთელი, გურამ კიკნაძის 23 ა.
+            <br><br>
+            ტელეფონი: <a href="tel:+5555555555">555-555-5555</a>
+        </address>
+    </article>
+    <hr>
+    <article class="main__article contact">
+        <h2 class="contact__h2">ჩვენი საკონტაქტო ფორმა</h2>
+
+        <form action="https://httpbin.org/get" method="get" class="contact__form">
+            <fieldset class="contact__fieldset">
+                <legend class="offscreen">დატოვე შეტყობინება!</legend>
+                <p class="contact__p">
+                    <label class="contact__label" for="name">სახელი</label>
+                    <input class="contact__input" input type="text" name="name" 
+                    id="name"
+                    placeholder="თქვენი სახელი" required>
+                </p>
+                <p class="contact__p">
+                    <label class="contact__label" for="name">მეილი</label>
+                    <input class="contact__input" input type="text" name="name" 
+                    id="name"
+                    placeholder="თქვენი მეილი" required>
+                </p>
+                <p class="contact__p">
+                    <label for="message">თქვენი შეტყობინება:</label>
+                    <br>
+                    <textarea class="contact__textarea" name="message" id="message" cols="30" rows="10" placeholder="დატოვეთ თქვენი შეტყობინება აქ"></textarea>
+                </p>
+            </fieldset>
+            <button class="contact__button" type="submit">გაგზავნა</button>
+            <button class="contact__button" type="reset">წაშლა</button>
+        </form>
+    </article>
+</main>
+<footer class="footer">
+    <p>
+        <span class="nowrap"> ყველა უფლება დაცულია.</span>
+        <span> &copy; ხინკლის ბარი.</span>
+    </p>
+    </footer>
+</body>
+
+</html>
